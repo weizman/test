@@ -1,5 +1,10 @@
 <script>
   setTimeout(() => {
-      opener.postMessage('a', '*');
+    // method 1
+    opener.postMessage('a', '*'); // method 1
+    // method 2
+    opener.xyxy = window;
   }, 1000);
+  
+  
 </script>
